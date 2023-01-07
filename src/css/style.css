@@ -1,0 +1,10 @@
+/*border*/
+
+hr.pic_divider {
+    border-top: 5px solid rgb(173, 129, 70);
+}
+
+.paragraph_font {
+    font-size: 1.25rem;
+    font-weight: 200;
+}
