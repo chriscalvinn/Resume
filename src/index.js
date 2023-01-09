@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
-import Blogs from "./Pages/Blogs";
-import Contact from "./Pages/Contact";
 import NoPage from "./Pages/NoPage";
+import Education from './Pages/Education';
+import Experience from './Pages/Experience';
+import Organizations from './Pages/Organizations';
+import Project from './Pages/Projects';
+import Skill from './Pages/Skills';
 
 //import reportWebVitals from './reportWebVitals';
 
@@ -17,9 +20,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="blogs" element={<Blogs />} />
-            <Route path="contact" element={<Contact />} />
-            
+            <Route path="work-exp" element={<Experience />} />
+            <Route path="org-exp" element={<Organizations />} />
+            <Route path='education' element={<Education />}/>
+            <Route path='project' element={<Project/>}/>
+            <Route path='skill' element={<Skill/>}/>
           </Route>
           <Route path="*" element={<NoPage />} />
         </Routes>

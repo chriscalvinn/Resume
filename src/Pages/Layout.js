@@ -6,17 +6,15 @@ import Bio from "../Component/Bio";
 
 const Layout = () => {
   return (
-    <div className="container-fluid bg-dark text-white">
+    <div className="container-fluid bg-dark text-white px-0">
         <div className="row">
             <Header />
         </div>
 
         {/*navbar */}
-        <div className="row">
-            <Navbar />
-        </div>
+        <Navbar />
 
-        <div className="row">
+        <div className="row mt-4">
             {/*content*/}
             <div className="col-3">
                 {/*profile*/}

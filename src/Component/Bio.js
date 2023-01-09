@@ -1,20 +1,23 @@
 import React from 'react';
 import '../css/style.css';
+import BioRow from './SubComponent/BioRow';
+
 
 function Bio(){
     const bio = (
-        <div className='row'>
-            <div className='col m-3'>
-                <div className='row'>
-                    <h3>Profile</h3>
-                    <hr></hr>
-                    <div className='d-inline-flex align-items-center'>
-                        <p className='lead flex-fill paragraph-font'>Birthplace: </p>
-                        <p className='flex-fill paragraph-font'>Jakarta</p>
-                    </div>
-                </div>
+        <div className='row mx-3'>
+            <div className='d-flex mb-3 align-items-center justify-content-center'>
+                <h2 id="name">Christopher Calvin</h2>
             </div>
-        </div>
+            <h4 className='my-2'>Profile</h4>
+                <hr></hr>
+                <BioRow field='Birth Place: ' content='Jakarta, Indonesia'/>
+                <BioRow field='Based In: ' content='Indonesia; Japan'/>
+                <BioRow field='Gender: ' content='Male'/>
+                <BioRow field='Telephone: ' content='+628990065144 (IDN) +817084648971 (JPN)'/>
+                <BioRow field='Email: ' content='calvinirianto@gmail.com'/>
+                <BioRow field='Github: ' content='github.com/chriscalvinn'/>
+            </div>
     );
     return bio
 }
