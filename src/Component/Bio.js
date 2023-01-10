@@ -5,7 +5,7 @@ import BioRow from './SubComponent/BioRow';
 
 function Bio(){
     const bio = (
-        <div className='row mx-3'>
+        <div className='row mx-3 mb-5'>
             <div className='d-flex mb-3 align-items-center justify-content-center'>
                 <h2 id="name">Christopher Calvin</h2>
             </div>

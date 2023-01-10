@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import Navbar from "../Component/navbar";
+import NavBar from "../Component/navbar";
 import Header from "../Component/header";
 import Picture from "../Component/Picture";
 import Bio from "../Component/Bio";
@@ -12,16 +12,16 @@ const Layout = () => {
         </div>
 
         {/*navbar */}
-        <Navbar />
+        <NavBar />
 
         <div className="row mt-4">
             {/*content*/}
-            <div className="col-3">
+            <div className="col-md-3">
                 {/*profile*/}
                 <Picture img={process.env.PUBLIC_URL+"/4x6.jpg"}/>
                 <Bio/>
             </div>
-            <div className="col-9"><Outlet /></div>
+            <div className="col-md-9"><Outlet /></div>
         </div>
     </div>
   )
