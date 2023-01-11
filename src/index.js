@@ -16,7 +16,7 @@ const myFirstElement = <h1>Hello React!</h1>
 
 export default function App() {
     return (
-      <BrowserRouter basename="/resume">
+      <BrowserRouter >
         <Routes>
           <Route path="/resume" element={<Layout />}>
             <Route index element={<Home />} />
