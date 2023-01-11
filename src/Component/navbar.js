@@ -15,22 +15,22 @@ function NavBar(){
                 <Navbar.Collapse id='navbar-nav-id'>
                     <Nav>
                         <Nav.Item className=" m-1 p-1">
-                            <Link className="nav-link" to="/" onClick={() => setExpanded(false)}>Home</Link>
+                            <Link className="nav-link" to="" onClick={() => setExpanded(false)}>Home</Link>
                         </Nav.Item>
                         <Nav.Item className=" m-1 p-1">
-                            <Link className="nav-link" to="/education" onClick={() => setExpanded(false)}>Education</Link>
+                            <Link className="nav-link" to="education" onClick={() => setExpanded(false)}>Education</Link>
                         </Nav.Item>
                         <Nav.Item className=" m-1 p-1">
-                            <Link className="nav-link" to="/work-exp" onClick={() => setExpanded(false)}>Work Experience</Link>
+                            <Link className="nav-link" to="work-exp" onClick={() => setExpanded(false)}>Work Experience</Link>
                         </Nav.Item>
                         <Nav.Item className=" m-1 p-1">
-                            <Link className="nav-link" to="/org-exp" onClick={() => setExpanded(false)}>Organizational Experiences</Link>
+                            <Link className="nav-link" to="org-exp" onClick={() => setExpanded(false)}>Organizational Experiences</Link>
                         </Nav.Item>
                         <Nav.Item className=" m-1 p-1">
-                            <Link className="nav-link" to="/project" onClick={() => setExpanded(false)}>Projects</Link>
+                            <Link className="nav-link" to="project" onClick={() => setExpanded(false)}>Projects</Link>
                         </Nav.Item>
                         <Nav.Item className="m-1 p-1">
-                            <Link className="nav-link" to="/skill" onClick={() => setExpanded(false)}>Skills</Link>
+                            <Link className="nav-link" to="skill" onClick={() => setExpanded(false)}>Skills</Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
