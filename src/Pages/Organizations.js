@@ -5,7 +5,7 @@ const Organizations = () => {
         <div className="row mx-2">
             <h2>Organizational Experiences</h2>
             <hr></hr>
-            <ul>
+            <ul className="mx-3">
               <OrgRow title="Student's Film Club ITB (LFM ITB)" subTitle='January 2018 - October 2021'/>
               <OrgRow title='Taekwondo ITB' subTitle='December 2017 - October 2021'/>
               <OrgRow title="Catholic Student's Club ITB (KMK ITB)" subTitle='August 2017 - October 2021'/>

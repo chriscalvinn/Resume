@@ -50,3 +50,21 @@ p.org_subtitle{
     font-style: italic;
     font-size: 1rem;
 }
+
+p.proj_title{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+p.proj_subtitle{
+    font-size: 1rem;
+}
+
+p.skill_title{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+p.skill_subtitle{
+    font-size: 1rem;
+}
