@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chriscalvinn.github.io/resume/static/css/main.21948a04.css",
+    "main.js": "/chriscalvinn.github.io/resume/static/js/main.4d5833c9.js",
+    "index.html": "/chriscalvinn.github.io/resume/index.html",
+    "main.21948a04.css.map": "/chriscalvinn.github.io/resume/static/css/main.21948a04.css.map",
+    "main.4d5833c9.js.map": "/chriscalvinn.github.io/resume/static/js/main.4d5833c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21948a04.css",
+    "static/js/main.4d5833c9.js"
+  ]
+}
