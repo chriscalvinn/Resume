@@ -15,9 +15,6 @@ function NavBar(){
                 <Navbar.Collapse id='navbar-nav-id'>
                     <Nav>
                         <Nav.Item className=" m-1 p-1">
-                            <Link className="nav-link" to="" onClick={() => setExpanded(false)}>Home</Link>
-                        </Nav.Item>
-                        <Nav.Item className=" m-1 p-1">
                             <Link className="nav-link" to="education" onClick={() => setExpanded(false)}>Education</Link>
                         </Nav.Item>
                         <Nav.Item className=" m-1 p-1">

@@ -19,7 +19,7 @@ export default function App() {
       <BrowserRouter >
         <Routes>
           <Route path="/resume" element={<Layout />}>
-            <Route index element={<Home />} />
+            <Route index element={<Education />} />
             <Route path="work-exp" element={<Experience />} />
             <Route path="org-exp" element={<Organizations />} />
             <Route path='education' element={<Education />}/>
